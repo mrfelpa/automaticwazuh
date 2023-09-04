@@ -1,7 +1,5 @@
 # AutomaticWazuh
 
-This script streamlines the installation and configuration process for the Wazuh manager, Wazuh agents, Elasticsearch, Kibana, and Filebeat. It offers a comprehensive solution for centralized log storage, analysis, and visualization.
-
 # Prerequisites
 
 *- A appropriately Linux system (such as Ubuntu).*
