@@ -12,11 +12,11 @@ This script streamlines the installation and configuration process for the Wazuh
 
 `git clone https://github.com/0x5FE/automaticwazuh.git`
 
-`cd repo`
+`cd automaticwazuh`
 
 Make the script executable:
 
-`chmod +x .sh`
+`chmod +x install-wazuh.sh`
 
 - Edit the script to configure your specific settings: Replace **"your_manager_ip_or_hostname"** with the IP address or hostname of your Wazuh manager.   
 
@@ -24,7 +24,7 @@ Make the script executable:
 
 Execute the script to effortlessly set up Wazuh and its associated components
 
-`./ -wazuh.sh`
+`./install-wazuh.sh`
 
 # Configuration
 
