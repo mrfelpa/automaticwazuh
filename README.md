@@ -4,7 +4,7 @@ This script streamlines the installation and configuration process for the Wazuh
 
 # Prerequisites
 
-*- A appropriately Linux system (such as Ubuntu) on which you intend to establish Wazuh.*
+*- A appropriately Linux system (such as Ubuntu).*
 
 *- Sudo privileges on the target system.*
 
