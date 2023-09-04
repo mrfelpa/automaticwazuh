@@ -28,7 +28,7 @@ Execute the script to effortlessly set up Wazuh and its associated components
 
 # Configuration
 
-Once you have executed the script, your Wazuh environment will be fully set up, encompassing the manager, agents, Elasticsearch, Kibana, and Filebeat. Now, let's delve into some essential configuration steps that you may want to undertake:
+Once you have executed the script, your Wazuh environment will be fully set up, now, let's delve into some essential configuration steps that you may want to undertake:
 
 Wazuh Agent Configuration: Enhance your monitoring capabilities by installing and configuring the Wazuh agent on additional hosts. 
 
