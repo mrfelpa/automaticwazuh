@@ -1,5 +1,3 @@
-# AutomaticWazuh
-
 # Prerequisites
 
 *- A appropriately Linux system (such as Ubuntu).*
