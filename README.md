@@ -30,13 +30,13 @@ Execute the script to effortlessly set up Wazuh and its associated components
 
 Once you have executed the script, your Wazuh environment will be fully set up, now, let's delve into some essential configuration steps that you may want to undertake:
 
-Wazuh Agent Configuration: Enhance your monitoring capabilities by installing and configuring the Wazuh agent on additional hosts. 
+**Wazuh Agent Configuration:*** *Enhance your monitoring capabilities by installing and configuring the Wazuh agent on additional hosts.*
 
 This will enable you to keep a vigilant eye on more systems. Simply modify the agent configuration to direct it towards your Wazuh manager's IP or hostname.
 
-Elasticsearch and Kibana Configuration: Tailor the configurations of Elasticsearch and Kibana to suit your specific requirements. This includes fine-tuning security settings, establishing data retention policies, and crafting captivating visualizations.
+**Elasticsearch and Kibana Configuration:** *Tailor the configurations of Elasticsearch and Kibana to suit your specific requirements. This includes fine-tuning security settings, establishing data retention policies, and crafting captivating visualizations.*
 
-Wazuh Rules and Policies: Empower your organization's security by customizing Wazuh rules and policies. Align them with your unique security requirements to ensure comprehensive protection. Feel free to add or modify rules in `/var/ossec/etc/rules` and policies in `/var/ossec/etc/policies`.
+**Wazuh Rules and Policies:** *Empower your organization's security by customizing Wazuh rules and policies. Align them with your unique security requirements to ensure comprehensive protection*. Feel free to add or modify rules in `/var/ossec/etc/rules` and policies in `/var/ossec/etc/policies`.
 
 By following these configuration steps, you will fortify your Wazuh environment, bolstering its effectiveness and adaptability. 
 
