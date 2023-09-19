@@ -26,7 +26,6 @@ echo "deb https://packages.wazuh.com/${WAZUH_VERSION}/xUbuntu_$(lsb_release -cs)
 curl -fsSL https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 echo "deb https://artifacts.elastic.co/packages/${ELK_VERSION}/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-7.x.list
 
-# Update package list
 sudo apt update
 
 # Install Wazuh manager
@@ -87,7 +86,7 @@ sudo /usr/share/kibana/bin/kibana-keystore create
 echo "${ELK_USERNAME}" | sudo /usr/share/kibana/bin/kibana-keystore add elasticsearch.username --stdin
 echo "${ELK_PASSWORD}" | sudo /usr/share/kibana/bin/kibana-keystore add elasticsearch.password --stdin
 
-# Restart Kibana
+
 sudo service kibana restart
 
 # Configure Filebeat to forward Wazuh alerts
@@ -106,7 +105,7 @@ output.elasticsearch:
   password: "${ELK_PASSWORD}"
 EOL
 
-# Restart Filebeat
+
 sudo systemctl restart filebeat
 
 echo "Wazuh setup completed. Your system is now configured for host-based monitoring with Wazuh, Elasticsearch, and Kibana."
